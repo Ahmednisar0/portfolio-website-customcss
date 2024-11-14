@@ -1,0 +1,75 @@
+/* Section Background and Spacing */
+.certifications-section {
+    background-color: #f3f4f6; /* Tailwind's bg-gray-100 */
+    padding: 5rem 0; /* Tailwind's py-20 */
+}
+
+/* Section Heading */
+.section-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.section-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffa500; /* Custom orange color */
+}
+
+.section-subtitle {
+    font-size: 1.125rem; /* Tailwind's text-lg */
+    margin-top: 1rem;
+    color: #4b5563; /* Tailwind's text-gray-600 */
+}
+
+/* Cards Container */
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 0 2rem;
+}
+
+/* Card Styles */
+.card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 64rem; /* Tailwind's max-w-4xl */
+}
+
+.card-title {
+    font-size: 1.875rem; /* Tailwind's text-3xl */
+    font-weight: 600;
+    color: #ff4500; /* Custom red-orange color */
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    color: #374151; /* Tailwind's text-gray-700 */
+    font-size: 1.125rem; /* Tailwind's text-lg */
+    margin-bottom: 1.5rem;
+}
+
+.card-highlight {
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+/* Button Styles */
+.button {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #333;
+}

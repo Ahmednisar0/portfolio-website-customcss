@@ -1,0 +1,92 @@
+/* General Styles */
+.home-container {
+    font-family: sans-serif;
+    background-color: #f3f4f6; /* Tailwind's bg-gray-100 */
+    color: #111827; /* Tailwind's text-gray-900 */
+    display: flex;
+}
+
+/* Left Side - Main Content */
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    padding: 4rem;
+    width: 50%;
+}
+
+.main-section h2,
+.main-section .name-highlight,
+.main-section .position-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.name-highlight {
+    color: #ffa500; /* Custom orange color */
+}
+
+.description {
+    font-size: 1.125rem; /* Tailwind's text-lg */
+    max-width: 48rem; /* Tailwind's max-w-3xl */
+    margin: 0 auto 2rem;
+}
+
+/* Buttons */
+.button-container {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.contact-button,
+.project-button {
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-button {
+    background-color: black;
+    color: white;
+}
+
+.contact-button:hover {
+    background-color: #374151; /* Tailwind's bg-gray-700 */
+}
+
+.project-button {
+    background-color: #ffa500;
+    color: white;
+}
+
+.project-button:hover {
+    background-color: #ff8c00; /* Darker orange for hover */
+}
+
+/* Active State */
+.active {
+    color: #ff4500;
+    text-decoration: underline;
+}
+
+/* Right Side - Image */
+.image-section {
+    width: 50%;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.owl-image {
+    width: 24rem; /* Tailwind's w-96 */
+    height: 24rem;
+    border-radius: 50%;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
